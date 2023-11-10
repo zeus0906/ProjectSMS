@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px auto;
+    padding: 1rem 0;
+    border-bottom: solid 1px #dddd;
+  }
+  
+  .logo{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(2, 139, 252);
+  }
+  
+  .liens{
+    display: flex;
+    list-style: none;
+  }
+  
+  .liens li{
+    margin-left: 2rem;
+  }
+  
+  .liens li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #4b4a4a;
+  }
+  
+  .liens li a:hover{
+    color: aqua;
+  }
+  
+  .btnCnexion{
+    background-color: #028bfc;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+  }

@@ -1,0 +1,18 @@
+h3{
+  text-align: center;
+}
+.formulaire{
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    border: solid 1px black;
+    text-align: center;
+}
+.formulaire input {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
