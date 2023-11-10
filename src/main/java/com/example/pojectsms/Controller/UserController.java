@@ -28,13 +28,13 @@ public class UserController {
         return userDao.findAll();
     }
 
-    @GetMapping("/api/Users/active")
+    /*@GetMapping("/api/Users/active")
     public List<User> listeActive(){
         List<User> actif = userDao.findAllByInactive
-    }
+    }*/
 
     @ApiOperation(value = "Affiche un utilisateur en foction de son email")
-    @GetMapping("/api/Users/{email}/details ")
+    @GetMapping("/api/Users/{email}/details")
     public Optional<User> afficherUser(@PathVariable String email) throws UserIntrouvableException {
         Optional<User> user = userDao.findById(email);
 
