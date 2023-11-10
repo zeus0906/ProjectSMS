@@ -28,10 +28,10 @@ public class UserController {
         return userDao.findAll();
     }
 
-    /*@GetMapping("/api/Users/active")
-    public List<User> listeActive(boolean inactive){
-
-    }*/
+    @GetMapping("/api/Users/active")
+    public List<User> listeActive(){
+        List<User> actif = userDao.findAllByInactive
+    }
 
     @ApiOperation(value = "Affiche un utilisateur en foction de son email")
     @GetMapping("/api/Users/{email}/details ")
